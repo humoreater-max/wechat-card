@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeChat Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <!-- Верхняя зеленая часть -->
+        <div class="card-header">
+            <div class="header-top">
+                <span><i class="fab fa-weixin"></i> 微信</span>
+                <span>名片</span>
+            </div>
+            <div class="wechat-icon-bg">
+                <i class="fab fa-weixin"></i>
+            </div>
+        </div>
+
+        <!-- Аватар -->
+        <div class="avatar-container">
+            <img src="avatar.jpg" alt="Avatar" id="avatar">
+            <div class="status-dot"></div>
+        </div>
+
+        <!-- Информация -->
+        <div class="content">
+            <h1 id="name">Katy Sunshine</h1>
+            <p id="wechat-id">微信号: KaterinaZakat</p>
+            
+            <!-- Значки (Россия/Геймер) -->
+            <div class="badges">
+                <span class="badge">🇱🇻 拉脱维亚</span>
+                <span class="badge">🎮 玩家</span>
+            </div>
+
+            <!-- Блок сообщения -->
+            <div class="message-box">
+                <p>你好！我们做朋友吧 😊</p>
+            </div>
+
+            <!-- Статистика -->
+            <div class="stats">
+                <span class="friend-count">6</span>
+                <span class="label">好友</span>
+            </div>
+
+            <!-- Кнопка -->
+            <a href="#" id="wechat-btn" class="btn">
+                <i class="fas fa-user-plus"></i> 添加到通讯录
+            </a>
+        </div>
+
+        <!-- Футер -->
+        <div class="footer">
+            WECHAT · 微信
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
